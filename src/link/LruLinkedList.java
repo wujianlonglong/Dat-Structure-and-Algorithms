@@ -1,3 +1,5 @@
+package link;
+
 /**
  * <p>
  * 基于链表的LRU算法

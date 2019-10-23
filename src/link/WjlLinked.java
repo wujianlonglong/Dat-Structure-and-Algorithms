@@ -1,3 +1,7 @@
+package link;
+
+import link.Node;
+
 /**
  * <p>
  * </p >

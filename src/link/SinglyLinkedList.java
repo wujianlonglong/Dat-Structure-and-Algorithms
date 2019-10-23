@@ -1,3 +1,5 @@
+package link;
+
 /**
  * <p>
  *     判断字符串是否回文
@@ -148,7 +150,7 @@ public class SinglyLinkedList {
            if (head != null && head.data == value) {
            head = head.next;
            }
-           Node pNode = head;
+           link.Node pNode = head;
            while (pNode != null) {
            if (pNode.next.data == data) {
            pNode.next = pNode.next.next;
@@ -319,7 +321,7 @@ public class SinglyLinkedList {
             link.insertTail(data[i]);
         }
         // link.printAll();
-        // Node p = link.inverseLinkList_head(link.head);
+        // link.Node p = link.inverseLinkList_head(link.head);
         // while(p != null){
         //     System.out.println("aa"+p.data);
         //     p = p.next;
