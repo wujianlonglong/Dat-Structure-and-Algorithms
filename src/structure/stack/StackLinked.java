@@ -1,6 +1,6 @@
-package stack;
+package structure.stack;
 
-import link.Node;
+import structure.link.Node;
 
 /**
  * <p>

@@ -1,4 +1,4 @@
-package stack;
+package structure.stack;
 
 import java.lang.reflect.Array;
 

@@ -1,6 +1,4 @@
-package link;
-
-import link.Node;
+package structure.link;
 
 /**
  * <p>

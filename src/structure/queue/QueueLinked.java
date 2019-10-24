@@ -1,6 +1,6 @@
-package queue;
+package structure.queue;
 
-import link.Node;
+import structure.link.Node;
 
 /**
  * <p>

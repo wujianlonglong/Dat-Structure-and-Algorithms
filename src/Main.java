@@ -1,6 +1,6 @@
-import link.LinkedUtils;
-import link.Node;
-import link.WjlLinked;
+import structure.link.LinkedUtils;
+import structure.link.Node;
+import structure.link.WjlLinked;
 
 public class Main {
 
