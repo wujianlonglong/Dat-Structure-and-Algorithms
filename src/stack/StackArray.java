@@ -35,11 +35,19 @@ public class StackArray<T> {
      * @param tClass
      */
     public StackArray(int n, Class<T> tClass) {
-        array = (T[]) Array.newInstance(tClass, n);
+        array =   (T[]) Array.newInstance(tClass, n);
         this.n = n;
         count = 0;
     }
 
+
+    /**
+     * 清空栈元素
+     */
+    public void cleanAll(){
+        array = (T[]) Array.newInstance(array.getClass(), n);
+        count = 0;
+    }
 
     /**
      * 入栈
@@ -69,6 +77,17 @@ public class StackArray<T> {
         T object = array[count - 1];
         count--;
         return object;
+    }
+
+    /**
+     * 打印栈顶元素
+     */
+    public void printHead(){
+        if(count==0){
+            System.out.println("当前栈为空！");
+        }
+        System.out.print("当前栈元素：");
+        System.out.print(array[count-1]);
     }
 
     /**

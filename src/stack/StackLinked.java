@@ -33,6 +33,14 @@ public class StackLinked {
     }
 
     /**
+     * 清空栈元素
+     */
+    public void cleanAll(){
+        head=null;
+        count=0;
+    }
+
+    /**
      * 入栈
      *
      * @param data
@@ -67,6 +75,18 @@ public class StackLinked {
         head = head.next;
         count--;
         return data;
+    }
+
+    /**
+     * 打印栈顶元素
+     */
+    public void printHead(){
+        if (count == 0) {
+            System.out.println("当前栈为空！");
+        }
+        System.out.print("当前栈定元素：");
+        System.out.print(head.getData());
+
     }
 
     /**
